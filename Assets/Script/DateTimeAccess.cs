@@ -29,13 +29,6 @@ public class FunDateTimeAccess {
         // Get date-only portion of date, without its time.
         DateTime dateOnly = date1.Date;
         return dateOnly.ToString("d");
-
-        // Display date using short date string.
-        //Console.WriteLine(dateOnly.ToString("d"));
-        // Display date using 24-hour clock.
-        //Console.WriteLine(dateOnly.ToString("g"));
-        //Console.WriteLine(dateOnly.ToString("MM/dd/yyyy HH:mm"));
-
-
+               
     }
 }
